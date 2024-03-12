@@ -1,3 +1,29 @@
 body {
     background-color: oldlace;
 }
+
+.header{
+    position: relative;
+    background-color: aquamarine;
+    width: 100dvw;
+    height: 100dvh;
+    border-radius: 10px;
+    align-items: self-end;
+}
+
+.text_frame{
+    background-color: none;
+    display: grid;
+    position:absolute;
+    background-color: none;
+    width:100%;
+    height: 50%;
+    justify-content: center;
+    align-items: top;
+    bottom: 0;
+}
+
+.text_frame h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 10em;
+}
